@@ -1,15 +1,14 @@
 
 # XenFT Management Tool
 
-This script allows users to manage their XenFTs across various EVM chains. Users can export their XenFTs to an `.ics` calendar file, display data on-screen, or select a different chain to manage their XenFTs.
+This script allows users to manage their XenFTs across various EVM chains. Users can export their XenFTs to an `.ics` calendar file or simply display data on-screen.
 
 ## Features:
 
-- Display a welcome banner.
 - Fetch XenFTs from multiple EVM chains.
 - Export XenFTs to an `.ics` file suitable for Google Calendar.
 - Display XenFT data on-screen in a table format.
-- Handle ENS domain names as input for Ethereum addresses.
+- Supports ENS names as input for all chains.
 
 ## Supported EVM Chains:
 
