@@ -37,7 +37,7 @@ pip install web3 tabulate ics
 3. Run the script using:
 
 ```bash
-python wenxen-allchains.py
+python xenft-export.py
 ```
 
 4. Follow the on-screen instructions.
