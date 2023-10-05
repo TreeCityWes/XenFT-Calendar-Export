@@ -1,7 +1,7 @@
 
-# XenFT Management Tool
+# XenFT Calendar Export Tool
 
-This script allows users to manage their XenFTs across various EVM chains. Users can export their XenFTs to an `.ics` calendar file or simply display data on-screen.
+This script allows users to export a list of their XenFTs across various EVM chains. Users can import reminders of all XenFTs into Google Calendar or other calendar software. 
 
 ## Features:
 
@@ -43,7 +43,7 @@ python xenft-export.py
 
 ## Input:
 
-- Enter your EVM address: This can be an Ethereum address (e.g., `0x1234...`) or an ENS domain name (e.g., `treecitywes.eth`).
+- Enter your EVM address: This can be an Ethereum address (e.g., `0x1234...`) or an ENS domain name.
   
 - Select your EVM Chain: Choose from the list of supported chains. You can also select 'Search all chains' to fetch XenFTs from all chains.
 
@@ -52,3 +52,5 @@ python xenft-export.py
 ## Output:
 
 If you choose to export XenFTs to a calendar file, an `.ics` file will be generated in the script's directory. This file can be imported into Google Calendar or any other calendar application that supports the `.ics` format.
+
+Visit HashHead.io for more info! 
