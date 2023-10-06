@@ -170,7 +170,7 @@ def create_ics_file(xenfts, chain_name, filename="events.ics"):
             maturity_datetime = datetime.strptime(maturity_datetime_str, "%b %d, %Y %H:%M %Z")
 
             event = Event()
-            event.name = f"{chain_name} XenFT Due: {xenft['Name']}"
+            event.name = f"XenFT Due: {xenft['Name']}"
             event.begin = maturity_datetime
             event.duration = timedelta(hours=1)
             event.description = f"{xenft['Name']} on {chain_name} reaches maturity."
