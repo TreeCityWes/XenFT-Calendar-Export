@@ -26,7 +26,7 @@ Created by TreeCityWes.eth - Visit HashHead.io to Buy me a Coffee
 # Chain Configurations
 CHAINS = {
     'Ethereum': {
-        'rpc': 'https://eth.llamarpc.com',
+        'rpc': 'https://rpc.ankr.com/eth',
         'contract': '0x0a252663DBCc0b073063D6420a40319e438Cfa59'
     },
     'BSC': {
@@ -34,7 +34,7 @@ CHAINS = {
         'contract': '0x1Ac17FFB8456525BfF46870bba7Ed8772ba063a5'
     },
     'Polygon': {
-        'rpc': 'https://polygon.llamarpc.com',
+        'rpc': 'https://1rpc.io/matic',
         'contract': '0x726bB6aC9b74441Eb8FB52163e9014302D4249e5'
     },
     'Avalanche': {
