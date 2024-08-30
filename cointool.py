@@ -24,6 +24,7 @@ def display_welcome_banner():
     Xen Batch Export for CoinTools
     Created by TreeCityWes.eth
     Visit HashHead.io
+    #StayXen
     """
     print(banner)
 
